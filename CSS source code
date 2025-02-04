@@ -1,0 +1,206 @@
+*{
+
+
+    margin:0px;
+    padding:0px;
+}
+.cont
+{
+    width:100vw;
+    border:solid 
+    box-sizing:border-box;
+    height:100%;
+    overflow-x:hidden;
+    background-image: linear-gradient(to right top, #b05de6, #9469e0, #7c70d5, #6b74c6, #6276b4, #5579af, #4e7ca7, #4c7d9f, #3983a0, #28899c, #1e8e95, #27928b);
+}
+
+
+.header{
+    /* Add styles for header if needed */
+}
+.nav-bar{
+    background-image: linear-gradient(to right top, #b05de6, #9469e0, #7c70d5, #6b74c6, #6276b4, #5579af, #4e7ca7, #4c7d9f, #3983a0, #28899c, #1e8e95, #27928b);
+   width:100vw;
+   height:70px;
+   
+
+}  
+#list-item{
+    display:flex;
+justify-content: space-between;
+
+padding-top:15px;
+list-style:none;
+
+}
+
+#list-item   a{
+    margin:10px;
+    color:white;
+   font-size:1.5rem;
+    text-decoration: none;
+    padding-right:10px; 
+}
+ 
+#title{
+    padding-left:15px;  
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom:6px;
+    color:white;
+    text-shadow: 5px 5px 2px black;
+    margin-left: 30px;;
+}
+#logo{
+    width:50px;
+    height:45px;
+    border-radius:70%;
+    position:relative;
+    right:105px;
+
+}
+#logo:hover{
+    transform: scale(1.2);
+    transition: all 0.2s linear 0s;
+}
+.body{
+    width: 69%;
+    margin:auto;
+    height:105%;
+    background-color: white;
+    box-shadow:0px 2px 4px 3px black;
+   
+}
+.item-1{
+    display:flex;
+    justify-content: space-around;
+    padding-top:40px;
+    box-sizing: content-box;
+    position: relative;
+  
+    
+}
+#samosaimage{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 10px;;
+}
+.description{
+    padding-top:30px;
+    margin-left:20px;
+    box-sizing:border-box;
+}
+.ing ul{
+    padding-left:25px;
+}
+.recipe ol{
+    padding-left:25px;
+}
+.recipe{
+    margin-top:8px;
+}
+
+.image{
+   border-radius:10px ;
+position:relative;
+width:200px;
+height:220px;
+margin-top:45px;
+margin-right:15px;
+   
+}
+.floatsamosa{
+    opacity:0;
+}
+.image:hover .floatsamosa{
+    opacity:1;
+}
+.image:hover{
+    .floatsamosa {
+        position: absolute;
+        border-radius:10px ;
+         top:0px;
+         left:0px;
+         height:100%;
+         width:100%;
+         display:flex;
+         justify-content:center;
+         align-items:center;
+         background-color: rgba(65, 45, 62,0.6);
+         color:white;
+         transition:all 0.4s linear;
+         box-shadow: 0px 0px 3px 3px rgb(30, 1, 1);
+      }
+}
+.name{
+    margin-top:8px;
+}
+.ingredients{
+    margin-top:8px;
+}
+.item2{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:30px;
+    
+    height:100%;
+}
+#Parothaimage{
+  width:100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;;
+}
+.image2{
+    position:relative;
+    
+    justify-self: end;
+    margin-top: 30px;
+    width:200px;
+    height:220px;
+  border-radius: 10px;
+  
+    
+}
+.ditem2{
+    box-sizing: border-box;
+}
+
+.floatitem2{
+    opacity:0;
+}
+
+.image2:hover{
+    .floatitem2{
+        position:absolute;
+        top:0px;
+        left:0px; 
+        display:flex;
+        height:100%;
+        width  :100%;
+        object-fit: cover;
+        justify-content:center;
+        align-items:center;
+        background-color: rgba(60, 35, 35, 0.6);
+       box-shadow: 0px 0px 4px 2px;
+       border-radius: 10px;
+       transition: all 0.4s linear 0s;
+       opacity:1;
+       color: white;
+    }
+}
+#part2{
+    margin-top:15px;
+}
+footer{
+    
+    background-color: blue;
+    height:30px;
+    background-image: linear-gradient(to right top, #d16ba5, #bc6bad, #a56db2, #8b6eb4, #716eb2, #5972b2, #4175ae, #2877a8, #167da1, #1e8197, #33848c, #478682);
+}
+#footer{
+ font-weight: 100;
+ color:white;
+text-align: center;
+}
